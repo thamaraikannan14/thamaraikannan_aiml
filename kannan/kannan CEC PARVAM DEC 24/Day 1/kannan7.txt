@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+int main()
+
+{
+    int month;
+ 
+   printf("enter the number for the month ");
+  
+  scanf("%d",&month);
+    
+if(month>=1 && month<=12)
+   
+ {
+        printf("the month exist ");
+     
+   
+    }
+  
+  else
+    
+{
+        printf("it doesnot exist ");
+    
+}
+
+
+
+}

@@ -1,0 +1,21 @@
+// Online C compiler to run C program  for input for n print from 1 to n
+#include <stdio.h>
+
+int main() 
+{
+    int num;
+    int i=1;
+   printf(" enter the value of num");
+    scanf("%d",&num);
+    while(i<=num)
+        {
+            printf("%d \n",i);
+            i++;
+        }
+        
+        
+       
+    
+        
+    
+}
