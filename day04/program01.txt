@@ -1,0 +1,17 @@
+// Online C compiler to run C program to read input from user to print sum of digit present in the number
+#include <stdio.h>
+
+int main() 
+{
+    int number,sum=0,digit;
+    printf("enter the integer value");
+    scanf("%d",&number);
+    while(number!=0)
+    {
+        digit=number%10;
+        sum+=digit;
+        number /=10;
+        
+    }
+    printf("%d sum of digits:",sum);
+}

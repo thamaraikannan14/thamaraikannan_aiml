@@ -1,0 +1,17 @@
+// Online C compiler to run C program to print user entered number reverse the number
+#include <stdio.h>
+
+int main() 
+{
+    int number,reverse=0,rem=0;
+    printf("enter the integer value");
+    scanf("%d",&number);
+    while(number!=0)
+    {
+        rem=number%10;
+        reverse=reverse*10+rem;
+        number=number/10;
+        
+    }
+    printf("%d reverse  of digits:", reverse);
+}
