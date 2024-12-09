@@ -1,0 +1,14 @@
+// write a c program for print multiplication of two number by functions
+#include <stdio.h>
+int  main() 
+{
+ void mul(int x,int y)
+{
+    printf("multiplication of %d & %d is:%d \n",x,y,(x*y));
+    
+}
+mul(1,7);
+mul(11,12);
+mul(112,766);
+
+}

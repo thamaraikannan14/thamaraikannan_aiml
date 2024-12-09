@@ -1,0 +1,16 @@
+//write a C program to n tables?
+#include <stdio.h>
+int main() 
+{
+    int n,j;
+    printf("enter the number ");
+    scanf("%d",&n);
+    for( int i=1;i<=n;i++)
+    {
+        for(int j=10;j>=1;j--)
+        {
+            printf("%dx%d=%d \n",i,j,i*j);
+        }
+        printf("\n");
+    }
+}

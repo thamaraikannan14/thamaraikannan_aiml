@@ -1,0 +1,14 @@
+// write a c program for print substact of two number by functions
+#include <stdio.h>
+int  main() 
+{
+ void sub(int x,int y)
+{
+    printf("substraction of %d & %d is:%d \n",x,y,(x-y));
+    
+}
+sub(1,7);
+sub(11,12);
+sub(112,766);
+
+}

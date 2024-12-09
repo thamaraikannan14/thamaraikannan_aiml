@@ -1,0 +1,16 @@
+// write a c program for print division of two number by functions
+#include <stdio.h>
+int  main() 
+{
+ void division(int x,int y)
+{
+    printf("division of quoient %d & %d is:%d \n",x,y,(x/y));
+    printf("division of  remainder%d & %d is:%d \n",x,y,(x%y));
+    
+    
+}
+
+division(12,2);
+
+
+}

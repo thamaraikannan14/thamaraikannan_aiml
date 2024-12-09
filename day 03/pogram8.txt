@@ -1,0 +1,22 @@
+// write a c pogram for print program name by functions
+#include <stdio.h>
+int main() 
+{
+    void display()
+{
+   
+    printf("c \n");
+     printf("c++\n"); 
+     printf("java\n");
+     printf("javascript\n");
+     printf("python \n");
+     printf("sql \n");
+     
+}
+display();
+display();
+display();
+display();
+display();
+display();
+}
