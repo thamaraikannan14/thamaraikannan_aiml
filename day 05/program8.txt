@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+    int code,quantity,price;
+    char Description[20];
+    int total;
+    int grandtotal=0;
+    int n;
+    printf(" enter the numbers of item ");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        
+    printf("%d ",n);
+    printf("enter the product name :\n");
+    scanf("%s",&Description);
+    printf(" enter the quantity");
+    scanf("%d",&quantity);
+    printf(" enter the price ");
+    scanf("%d",&price);
+    total=(quantity * price);
+    grandtotal=total+grandtotal;
+    printf(" the total is %d \n",total);
+    }
+    printf("%d grandtotal of ",grandtotal);
+}

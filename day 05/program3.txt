@@ -1,0 +1,24 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int num[10];
+    num[0]=10;
+    num[1]=20;
+    num[2]=30;
+    num[3]=40;
+    num[4]=50;
+     num[5]=50;
+     num[6]=60;
+     num[7]=70;
+     num[8]=80;
+     num[9]=90;
+    num[10]=100;
+    printf(" array elements are:\n");
+    for(int i=0;i<10;i++)
+    {
+        printf("%d ,",num[i]);
+    }
+    
+    
+}
